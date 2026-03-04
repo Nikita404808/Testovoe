@@ -1,0 +1,12 @@
+# Runtime data
+/data/*.db
+/data/*.sqlite
+/data/*.sqlite3
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log

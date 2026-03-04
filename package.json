@@ -1,0 +1,19 @@
+{
+  "name": "repair-service-app",
+  "version": "1.0.0",
+  "description": "Учебное веб-приложение для обработки заявок в ремонтную службу",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "db:migrate": "node scripts/migrate.js",
+    "db:seed": "node scripts/seed.js",
+    "db:init": "node scripts/init-db.js",
+    "test": "node --test",
+    "race:test": "bash scripts/race_test.sh"
+  },
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "license": "MIT"
+}
